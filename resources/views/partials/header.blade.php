@@ -6,6 +6,19 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
+            <li class="dropdown">
+                <a><span>Tugas</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                    <li><a href="{{ route('tugas.pertemuan1.linktree') }}">pertemuan 1 - linktree</a></li>
+                    <li><a href="{{ route('tugas.pertemuan2.hello') }}">pertemuan 2 - hello</a></li>
+                    <li><a href="{{ route('tugas.pertemuan2.style') }}">pertemuan 2 - style</a></li>
+                    <li><a href="{{ route('tugas.pertemuan2.style2') }}">pertemuan 2 - style2</a></li>
+                    <li><a href="{{ route('tugas.pertemuan3.responsive1') }}">pertemuan 3 - responsive1</a></li>
+                    <li><a href="{{ route('tugas.pertemuan5.desainwireframe') }}">pertemuan 5 - desainwireframe</a></li>
+                    <li><a href="{{ route('tugas.pertemuan7.form') }}">pertemuan 7 - form</a></li>
+                    <li><a href="{{ route('tugas.pertemuan7.template') }}">pertemuan 7 - template</a></li>
+                </ul>
+            </li>
           <li><a href="{{ url('/') }}" class="active">Home</a></li>
           <li><a href="{{ url('/about') }}">Tentang Kami</a></li>
           <li><a href="{{ url('/contohisi') }}">Contoh Isi</a></li>
